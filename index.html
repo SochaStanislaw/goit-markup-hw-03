@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio Main Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,175 +21,185 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div>
-        <a class="header-title-style" href="index.html"
+    <div class="container">
+      <header class="container">
+        <div class="top-header">
+          <a class="header-title-style" href="index.html"
+            ><span class="web-title-style">Web</span>Studio</a
+          >
+          <nav class="menu-nav">
+            <ul class="menu-nav">
+              <li><a href="">Agencja</a></li>
+              <li><a href="./portfolio.html">Portfolio</a></li>
+              <li><a href="">Kontakt</a></li>
+            </ul>
+          </nav>
+          <ul class="menu-contacts">
+            <li>
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+              <a href="tel:+48111111111">+48 111 111 111</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
+    <main>
+      <div class="container">
+        <section class="section container section-no-1">
+          <h1 class="main-card">
+            EFEKTYWNE ROZWIĄZANIA<br />DLA WASZEGO BIZNESU
+          </h1>
+          <button class="order-button" type="button">Zamów usługę</button>
+        </section>
+        <section class="section">
+          <ul class="lorem-ipsum">
+            <li>
+              <h3>lorem ipsum</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcusem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+              <h3>lorem ipsum</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcusem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+              <h3>lorem ipsum</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcusem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+              <h3>LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcusem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="container">
+        <section class="section container section-no-3">
+          <h2>Czym się zajmujemy</h2>
+          <ul class="what-we-do-box">
+            <li>
+              <img
+                src="images/box/box_1.jpg"
+                alt="computer work 1"
+                title="computer work 1"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="images/box/box_2.jpg"
+                alt="computer work 2"
+                title="computer work 2"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="images/box/box_3.jpg"
+                alt="computer work 3"
+                title="computer work 3"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="container">
+        <section class="section container section-no-4">
+          <h2>Nasz zespół</h2>
+          <ul class="our-team-box">
+            <li>
+              <img
+                src="images/team_card/team_card_1.jpg"
+                alt="John Doe - Product Designer"
+                title="John Doe - Product Designer"
+                width="270"
+                height="260"
+              />
+              <h3>John Doe</h3>
+              <p>Product Designer</p>
+            </li>
+            <li>
+              <img
+                src="images/team_card/team_card_2.jpg"
+                alt="John Doe - Frontend Developer"
+                title="John Doe - Frontend Developer"
+                width="270"
+                height="260"
+              />
+              <h3>John Doe</h3>
+              <p>Frontend Developer</p>
+            </li>
+            <li>
+              <img
+                src="images/team_card/team_card_3.jpg"
+                alt="John Doe - Marketing"
+                title="John Doe - Marketing"
+                width="270"
+                height="260"
+              />
+              <h3>John Doe</h3>
+              <p>Marketing</p>
+            </li>
+            <li>
+              <img
+                src="images/team_card/team_card_4.jpg"
+                alt="John Doe - UI Designer"
+                title="John Doe - UI Designer"
+                width="270"
+                height="260"
+              />
+              <h3>John Doe</h3>
+              <p>UI Designer</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <div class="container">
+      <footer class="footer-contact">
+        <a class="footer-title-style" href="index.html"
           ><span class="web-title-style">Web</span>Studio</a
         >
-        <nav class="menu-nav">
-          <ul class="menu-nav">
-            <li><a href="">Agencja</a></li>
-            <li><a href="./portfolio.html">Portfolio</a></li>
-            <li><a href="">Kontakt</a></li>
+        <address>
+          <ul>
+            <li>
+              <a
+                class="footer-contact city"
+                href="https://www.google.pl/maps/place/al.+Jerozolimskie+21,+00-508+Warszawa/@52.2305319,21.013843,480m/data=!3m2!1e3!4b1!4m5!3m4!1s0x471eccf3e52bee23:0xc5163bc7ec8d4437!8m2!3d52.2305286!4d21.0160317"
+                target="_blank"
+                >Warszawa, Aleje Jerozolimskie 21</a
+              >
+            </li>
+            <li>
+              <a class="footer-contacts mail" href="mailto:info@example.com.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="footer-contact phone-number" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
           </ul>
-        </nav>
-        <ul class="menu-contacts">
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+48111111111">+48 111 111 111</a>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <main>
-      <section class="section-no-1">
-        <h1 class="main-card">
-          EFEKTYWNE ROZWIĄZANIA<br />DLA WASZEGO BIZNESU
-        </h1>
-        <button class="order-button" type="button">Zamów usługę</button>
-      </section>
-      <section>
-        <ul class="lorem-ipsum">
-          <li>
-            <h3>lorem ipsum</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcusem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li>
-            <h3>lorem ipsum</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcusem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li>
-            <h3>lorem ipsum</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcusem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcusem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="section-no-3">
-        <h2>Czym się zajmujemy</h2>
-        <ul>
-          <li>
-            <img
-              src="images/box/box_1.jpg"
-              alt="computer work 1"
-              title="computer work 1"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="images/box/box_2.jpg"
-              alt="computer work 2"
-              title="computer work 2"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="images/box/box_3.jpg"
-              alt="computer work 3"
-              title="computer work 3"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
-      </section>
-      <section class="section-no-4">
-        <h2>Nasz zespół</h2>
-        <ul>
-          <li>
-            <img
-              src="images/team_card/team_card_1.jpg"
-              alt="John Doe - Product Designer"
-              title="John Doe - Product Designer"
-              width="270"
-              height="260"
-            />
-            <h3>John Doe</h3>
-            <p>Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="images/team_card/team_card_2.jpg"
-              alt="John Doe - Frontend Developer"
-              title="John Doe - Frontend Developer"
-              width="270"
-              height="260"
-            />
-            <h3>John Doe</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="images/team_card/team_card_3.jpg"
-              alt="John Doe - Marketing"
-              title="John Doe - Marketing"
-              width="270"
-              height="260"
-            />
-            <h3>John Doe</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img
-              src="images/team_card/team_card_4.jpg"
-              alt="John Doe - UI Designer"
-              title="John Doe - UI Designer"
-              width="270"
-              height="260"
-            />
-            <h3>John Doe</h3>
-            <p>UI Designer</p>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer class="footer-contact">
-      <a class="footer-title-style" href="index.html"
-        ><span class="web-title-style">Web</span>Studio</a
-      >
-      <address>
-        <ul>
-          <li>
-            <a
-              class="footer-contact city"
-              href="https://www.google.pl/maps/place/al.+Jerozolimskie+21,+00-508+Warszawa/@52.2305319,21.013843,480m/data=!3m2!1e3!4b1!4m5!3m4!1s0x471eccf3e52bee23:0xc5163bc7ec8d4437!8m2!3d52.2305286!4d21.0160317"
-              target="_blank"
-              >Warszawa, Aleje Jerozolimskie 21</a
-            >
-          </li>
-          <li>
-            <a class="footer-contacts mail" href="mailto:info@example.com.com"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a class="footer-contact phone-number" href="tel:+48111111111"
-              >+48 111 111 111</a
-            >
-          </li>
-        </ul>
-      </address>
-    </footer>
+        </address>
+      </footer>
+    </div>
   </body>
 </html>
