@@ -171,8 +171,8 @@ span.web-title-style {
 button:focus
 
 /* section-no-2: Lorem ipsum */
-.section-no-2-style ul
-    {list-style-type: none;
+.section-no-2-style {
+    list-style-type: none;
 }
 
 .section-no-2-paragraph-box {
@@ -185,6 +185,7 @@ button:focus
 .section-no-2-paragraph-style {
     font-size: 14px;
     letter-spacing: 0.03em;
+    list-style-type: none;
 }
 
 .section-no-2-paragraph-style h3 {
