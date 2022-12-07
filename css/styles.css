@@ -171,9 +171,9 @@ span.web-title-style {
 button:focus
 
 /* section-no-2: Lorem ipsum */
-/* .section-no-2-style {
+.section-no-2-style {
     list-style-type: none;
-} */
+}
 
 .section-no-2-paragraph-box {
     /* outline: green dotted 1px; */
