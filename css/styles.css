@@ -1,4 +1,4 @@
-img {
+* img {
     display: block;
 }
 
@@ -168,15 +168,9 @@ span.web-title-style {
     cursor: pointer;
 }
 
-button:focus {
-    /* color: #2196F3; */
-}
+button:focus
 
 /* section-no-2: Lorem ipsum */
-.section-no-2-style {
-    /* outline: blue solid 4px; */
-}
-
 .section-no-2-style ul
     {list-style-type: none;
 }
