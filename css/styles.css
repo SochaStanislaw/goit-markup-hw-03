@@ -1,13 +1,11 @@
+img {
+    display: block;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
-
-/* *,
-*::before,
-*::after {
-  box-sizing: border-box;
-} */
 
 :root {
     --background-color: #FFFFFF;
@@ -136,7 +134,6 @@ span.web-title-style {
 
 .section-no-1-position {
     padding: 200px 252px 200px 252px;
-
 }
 
 .main-card-heading {
@@ -150,15 +147,13 @@ span.web-title-style {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
-    margin: 0  0 30px 0;
+    margin-bottom: 30px;
 }
 /* button "zamów usługę */
 .order-button {
     /* outline: red dashed 2px; */
     width: 200px;
     height: 50px;
-    left: 700px;
-    top: 430px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
@@ -189,7 +184,6 @@ button:focus {
 .section-no-2-paragraph-box {
     /* outline: green dotted 1px; */
     display: flex;
-    justify-content: space-between;
     padding: 0 15px;
     gap: 30px;
 }
@@ -217,10 +211,6 @@ button:focus {
 }
 
 /* section-no-3: "czym się zajmujemy" */
-.section-no-3 {
-    /* outline: solid blue 2px; */
-}
-
 .section-no-3-heading {
     font-weight: 700;
     font-size: 36px;
@@ -232,26 +222,22 @@ button:focus {
     margin-bottom: 50px;
 }
 
-.section-no-3 ul {
+.section-no-3-syle ul {
     list-style-type: none;
 }
 
 .section-no-3-imgbox {
     /* outline: dashed orange 5px; */
     display: flex;
+    justify-content: space-between;
     height: 294px;
     padding: 0 15px 0 15px;
-    justify-content: space-between;
-    align-content: center;
 }
 
 /* section-no-4: "Nasz zespół" */
 .section-no-4-style {
     /* outline: green 6px dotted; */
     background-color: var(--ourteam-background-color);
-    /* width: 1600px; */
-    /* margin: 0 auto; */
-    /* padding: 50px 15px 94px 15px; */
 }
 
 .section-no-4-style ul {
@@ -288,10 +274,6 @@ button:focus {
     border-radius: 0px 0px 4px 4px;
 }
 
-.section-no-4-content-box img {
-    display: block;
-}
-
 .section-no-4-img-title {
     /* outline: darkblue 3px dashed; */
     font-size: 16px;
@@ -304,6 +286,7 @@ button:focus {
 }
 
 .section-no-4-img-title h3 {
+    font-size: 16px;
     font-weight: 500;
     color: var(--headers-font-color);
     margin-bottom: 10px;
@@ -316,19 +299,14 @@ button:focus {
 /* ---------------------------------------------- */
 /* portfolio-begin */
 /* portfolio-section-no-1 */
-.portfolio-section-no-1 ul {
-    list-style-type: none;
-}
-
 /* filters buttons */
 .portfolio-section-no-1 ul {
-    outline: blue dashed 2px;
+    /* outline: blue dashed 2px; */
+    list-style-type: none;
     display: flex;
     justify-content: center;
-    /* margin: 0 auto; */
     gap: 8px;
-    padding: 0 0 16px 0;
-    margin-top: 79px;
+    padding-top: 94px;
 }
 
 .portfolio-section-no-1 button {
@@ -344,7 +322,6 @@ button:focus {
     background-color: #F5F4FA;
     border-radius: 4px;
     padding: 6px 22px;
-    
 }
 /* buttton' hover&focus */
 .portfolio-section-no-1 button:hover,
@@ -354,51 +331,28 @@ button:focus {
 }
 
 /* portfolio-section-no-2 */
-.portfolio-section-no-2 {
-    outline: blue dashed 2px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0;
-    width: 1200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.portfolio-section-no-2 {
+.portfolio-section-no-2-style ul {
     list-style-type: none;
 }
 
-.portfolio-projects-position {
-
-}
-
-.porfolio-projects {
-    outline: blue dashed 3px;
-    max-width: 1170px;
-    margin: 0 auto;
-    list-style-type: none;
+.portfolio-section-no-2-content-box {
+    /* outline: blue dashed 6px; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 30px;
+    padding: 50px 15px 0 15px;
 }
 
-.porfolio-projects-card img {
-    /* outline: green solid 2px; */
-
-}
-
-.portfolio-projects-card-heading-style {
+.portfolio-section-no-2-img-title {
+    /* outline: red 1px solid; */
+    padding: 24px 0 20px 20px;
+    background: #FFFFFF;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
-    margin: 0   ;
 }
 
-.portfolio-section-no-2 h4 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+.portfolio-section-no-2-img-title h4 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -408,10 +362,7 @@ button:focus {
     color: var(--headers-font-color);
 }
 
-.portfolio-section-no-2 p {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 16px;
+.portfolio-section-no-2-img-title p {
     line-height: 1.875;
     /* line-height: 30px; */
     /* identical to box height, or 188% */
@@ -434,7 +385,7 @@ button:focus {
 }
 
 .footer-contact-position {
-    padding: 55px 0 55px 55px;
+    padding: 60px 0 60px 15px;
 }
 
 /* title webstudio - footer */
