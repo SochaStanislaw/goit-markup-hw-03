@@ -44,11 +44,18 @@ nav a, ul a:focus {
 }
 
 /* header */
+/* header&footer common styles */
+.head-foot-common-styles {
+font-family: 'Raleway', 'Roboto', sans-serif;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+text-decoration: none;
+cursor: pointer;
+}
+
 /* nazwa strony */
 .header-nav-border {
-    /* outline: deepskyblue dashed 5px; */
-    /* background-color: aqua; */
-    /* margin: 0 auto; */
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -62,17 +69,9 @@ nav a, ul a:focus {
 
 a.header-title-style {
     /* background-color: darkred; */
-    font-family: 'Raleway';
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    /* line-height: 31px; */
-    /* identical to box height */
-    letter-spacing: 0.03em;
-    text-decoration: none;
     color: #000000;
-    cursor: pointer;
-    margin-right: 93px;
+    /* margin-right: 93px; */
 }
 
 /* "WEB" dot. header i footer */
@@ -92,8 +91,9 @@ span.web-title-style {
     cursor: pointer;
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    width: 254px;
+    gap: 46px;
+    /* justify-content: space-between; */
+    /* width: 254px; */
 }
 
 .menu-nav a {
@@ -114,9 +114,7 @@ span.web-title-style {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    padding: 0;
-    width: 295px;
-    margin-left: 371px;
+    gap: 50px;
 }
 
 .menu-contacts a {
@@ -340,7 +338,7 @@ button:focus
 
 .portfolio-section-no-2-img-title {
     /* outline: red 1px solid; */
-    padding: 24px 0 20px 20px;
+    padding: 24px 20px 20px 20px;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
@@ -370,6 +368,7 @@ button:focus
     display: block;
     background-color: var(--footer-bg-color);
     color: #ffffff60;
+    font-size: 14px;
     line-height: 1.71;
     /* line-height: 24px; */
     /* or 171% */
@@ -379,23 +378,14 @@ button:focus
 }
 
 .footer-contact-position {
-    padding: 60px 0 60px 15px;
+    padding: 60px 939px 60px 15px;
 }
 
 /* title webstudio - footer */
 .footer-title-style {
     /* outline: red dashed 1px; */
-    font-family: 'Raleway', 'Roboto', sans-serif;
-    font-size: 26px;
-    line-height: 1.19;
-    /* line-height: 31px; */
-    /* identical to box height */
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    /* text-align: left; */
     color: #FFFFFF;
-    cursor: pointer;
-}
+    }
 
 /* address - footer*/
 address.footer-address-box {
@@ -406,13 +396,12 @@ address.footer-address-box {
 .footer-contact-style ul {
     /* outline: red dashed 1px; */
     list-style-type: none;
-    padding: 0;
 }
 
 .city {
     /* outline: red dashed 1px; */
     color: #ffffff;
-    margin-top: 20px;
+        margin-top: 20px;
 }
 
 .mail {
