@@ -71,7 +71,7 @@ a.header-title-style {
     /* background-color: darkred; */
     font-weight: 700;
     color: #000000;
-    /* margin-right: 93px; */
+    margin-right: 93px;
 }
 
 /* "WEB" dot. header i footer */
@@ -91,9 +91,9 @@ span.web-title-style {
     cursor: pointer;
     list-style-type: none;
     display: flex;
-    gap: 46px;
-    /* justify-content: space-between; */
-    /* width: 254px; */
+    justify-content: space-between;
+    width: 254px;
+    margin-right: 371px;
 }
 
 .menu-nav a {
